@@ -4,6 +4,8 @@ timeText = document.querySelector(".time b"),
 inputField = document.querySelector("input"),
 refreshBtn = document.querySelector(".refresh-word"),
 checkBtn = document.querySelector(".check-word");
+let score = document.getElementById("score");
+let scr = 0;
 
 let correctWord, timer;
 
@@ -42,9 +44,14 @@ const checkWord = () => {
     //if user word doesn't matches with the correct word
    if (userWord !== correctWord) return alert (`OOPS! ${userWord} is not correct word`); 
    //if above two if conditions are fail the show congrats alert because user word is correct
-   alert (`Congrats! ${userWord.toUpperCase()} is a correct word`)
+   scr++;
+   
+   alert (`Congrats! ${userWord.toUpperCase()} is a correct word`);
+   score.innerText=`${scr}`
    initGame();
 }
 
 refreshBtn.addEventListener("click", initGame);
 checkBtn.addEventListener("click", checkWord);  
+
+

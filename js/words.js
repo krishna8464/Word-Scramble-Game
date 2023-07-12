@@ -53,19 +53,19 @@ const words = [
     },
     {
         word: 'store',
-        hint: 'Large shop where goods are kept
+        hint: 'Large shop where goods are kept'
     },
     {
         word: 'field',
-        hint: 'Area of land for farming activities
+        hint: 'Area of land for farming activities'
     },
     {
         word: 'friend',
-        hint: 'Person other than a family member
+        hint: 'Person other than a family member'
     },
     {
         word: 'pocket',
-        hint: 'A bag for carrying small items
+        hint: 'A bag for carrying small items'
     },
     {
         word: 'needle',
@@ -73,11 +73,11 @@ const words = [
     },
     {
         word: 'expert',
-        hint: 'Person with extensive knowledge
+        hint: 'Person with extensive knowledge'
     },
     {
         word: 'statement',
-        hint: 'A declaration of something
+        hint: 'A declaration of something'
     },
     {
         word: 'second',
@@ -85,11 +85,11 @@ const words = [
     },
     {
         word: 'library',
-        hint: 'Place a continuing collection of books
+        hint: 'Place a continuing collection of books'
     },
     {
         word: "meeting",
-        hint: 'Event in which people come together
+        hint: 'Event in which people come together'
     },
      {
         word: "random",
