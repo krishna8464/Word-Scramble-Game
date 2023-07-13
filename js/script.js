@@ -42,7 +42,11 @@ const checkWord = () => {
     let userWord = inputField.value.toLocaleLowerCase(); // getting user value
     if(!userWord)return alert ("Please enter a word check"); // if user didn't enter any thing
     //if user word doesn't matches with the correct word
-   if (userWord !== correctWord) return alert (`OOPS! ${userWord} is not correct word`); 
+   if (userWord !== correctWord) {
+    scr=0
+    score.innerText=`${0}`
+    return alert (`OOPS! ${userWord} is not correct word`);
+   } 
    //if above two if conditions are fail the show congrats alert because user word is correct
    scr++;
    
