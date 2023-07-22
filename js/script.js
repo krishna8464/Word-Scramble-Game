@@ -73,7 +73,7 @@ console.log(inputbox.value)
 
 document.addEventListener("keydown", function(event) {
     console.log(inputbox.value.length)
-    if (inputbox.value.length === wordlenght) {
+    if (inputbox.value.length === wordlenght && event.key === "Enter") {
         document.getElementById("btn1").click();
       }
     
